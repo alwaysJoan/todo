@@ -1,4 +1,4 @@
-let input = prompt('What would you like to do?');
+let input = prompt('What do you want to do?');
 const todos = ['Buy a house', 'Go to the beach'];
 while (input !== 'quit' && input !== 'q'){
   if (input === 'list'){
@@ -20,6 +20,6 @@ while (input !== 'quit' && input !== 'q'){
       console.log('Unknown index');
     }
   }
-  input = prompt('What would You like to do?');
+  input = prompt('What do you want to do?');
 }
 console.log('Ok, Go ahead and QUIT the App!');
